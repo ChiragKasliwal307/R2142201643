@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h1>Number Management Service</h1>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <span>Enter URLs to fetch numbers:</span>
+        <input type="text" id="urlInput" placeholder="Enter URL">
+        <button id="addUrlBtn">Add URL</button>
+    </div>
+    <div class="result">
+        <ul id="urlList"></ul>
+        <button id="fetchBtn">Fetch Numbers</button>
+        <div id="result">
+            <h3>Result:</h3>
+            <pre id="resultNumbers"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

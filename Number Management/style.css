@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(144, 0, 255);
+    height: 7vh;
+    padding: 1vw;
+}
+
+.container{
+    height: 5vh;
+    padding: 1vw;
+}
+.result{
+    height: 5vh;
+    padding: 1vw;
+}
